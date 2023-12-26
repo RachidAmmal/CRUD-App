@@ -1,0 +1,98 @@
+*{
+   box-sizing: border-box;
+}
+body{
+   background-image: url("background.jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+table{
+   width: 85%;
+   margin: 40px auto;
+   background: rgb(124, 154, 167);
+}
+table.list{
+   text-align: center;
+   width: 100%;
+}
+td{
+   border: 1px solid rgb(204, 200, 200);
+   text-align: left;
+   padding: 8px 15px;
+}
+tr:nth-child(even), table.list thread> tr{
+   background-color: rgb(204, 200, 200);
+}
+input[type="text"], input[type="number"]{
+   width: 100%;
+   margin: 5px auto;
+   padding: 12px 20px;
+   display: inline-block;
+   border: 1px solid rgb(165, 161, 161);
+   border-radius: 15px;
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   -ms-border-radius: 15px;
+   -o-border-radius: 15px;
+}
+input[type="submit"], input[type="reset"]{
+   transition: .2s;
+   color: white;
+   font-size: 1rem;
+   width: 49%;
+   margin: 5px 0 10px;
+   padding: 6px 12px;
+   display: inline-block;
+   border: 1px solid rgb(165, 161, 161);
+   cursor: pointer;
+   border-radius: 20px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   -ms-border-radius: 20px;
+   -o-border-radius: 20px;
+   -webkit-transition: .2s;
+   -moz-transition: .2s;
+   -ms-transition: .2s;
+   -o-transition: .2s;
+}
+input[type="submit"]{
+   background-color: green;
+}
+input[type="reset"]{
+   background-color: orange;
+}
+input[type="reset"]:hover, input[type="submit"]:hover{
+   filter: brightness(85%);
+   -webkit-filter: brightness(85%);
+}
+button{
+   text-align: center;
+   transition: .2s;
+   color: white;
+   width: 47%;
+   margin: 5px 0 10px;
+   padding: 6px 12px;
+   display: inline-block;
+   border: 1px solid rgb(165, 161, 161);
+   cursor: pointer;
+   border-radius: 20px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   -ms-border-radius: 20px;
+   -o-border-radius: 20px;
+   -webkit-transition: .2s;
+   -moz-transition: .2s;
+   -ms-transition: .2s;
+   -o-transition: .2s;
+}
+button.edit{
+   background-color: blue;
+}
+button.delete{
+   background-color: red;
+}
+button:hover{
+   filter: brightness(85%);
+   -webkit-filter: brightness(85%);
+}
